@@ -11,7 +11,7 @@ data=pd.read_csv("spam_dataset.csv")
 
 data=data.drop(['Unnamed: 0'],axis=1)
 
-#%% Stop Words
+#%% Text ve Label datalarımızı alıyoruz
 
 text=data.iloc[:,1:2]
 
